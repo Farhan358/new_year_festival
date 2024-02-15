@@ -373,6 +373,11 @@ section {
   gap: 16px;
 }
 
+.portfolio-item:hover {
+  border: 2px solid rgba(130, 83, 55, 1);
+  border-radius: 32px;
+}
+
 /* newsletter section */
 .newsletter-section {
   margin-top: 100px;
