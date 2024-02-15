@@ -19,6 +19,16 @@ body {
 section {
   margin-top: 50px;
 }
+.center {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
 
 /* banner section */
 
@@ -40,10 +50,7 @@ section {
 
 .banner {
   font-family: "Merriweather", serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   height: 70vh;
 }
 
@@ -103,8 +110,8 @@ section {
 
 .party-section {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   background-image: linear-gradient(
       to right,
       rgba(7, 2, 17, 1),
@@ -159,9 +166,7 @@ section {
 
 .venue-section {
   margin-top: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background-image: linear-gradient(
     to bottom,
     rgba(255, 0, 0, 0.4),
@@ -176,10 +181,6 @@ section {
 }
 
 .venue-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-family: "Inter", serif;
   font-weight: 600;
   font-size: 32px;
@@ -187,7 +188,7 @@ section {
   margin-top: 60px;
 }
 
-.venue-title {
+.title {
   color: #ff0000;
 }
 .venue-text > h2 {
@@ -209,4 +210,50 @@ section {
   padding: 16px 32px;
   border: none;
   border-radius: 8px;
+}
+
+/* holiday sales section starts */
+.holiday-sales-section {
+  margin-top: 150px;
+  background-image: url("../images/Rectangle_2.png");
+  background-repeat: no-repeat;
+  min-height: auto;
+  background-position: bottom;
+  border-radius: 16px;
+}
+.holiday-image {
+  justify-content: space-between;
+}
+.img-box > img {
+  margin-top: 30px;
+  z-index: -10;
+}
+
+.img-girl > img {
+  margin-left: 95px;
+  padding-bottom: 190px;
+  border-radius: 16px;
+}
+
+.holiday-texts {
+  font-family: "Inter", serif;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.holiday-texts > h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.holiday-texts > h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.holiday-texts > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #070211;
 }
