@@ -29,6 +29,10 @@ section {
 .center-column {
   flex-direction: column;
 }
+.display-columm {
+  display: flex;
+  flex-direction: column;
+}
 
 /* banner section */
 
@@ -215,6 +219,7 @@ section {
 /* holiday sales section starts */
 .holiday-sales-section {
   margin-top: 150px;
+  width: 100%;
   background-image: url("../images/Rectangle_2.png");
   background-repeat: no-repeat;
   min-height: auto;
@@ -229,10 +234,26 @@ section {
   z-index: -10;
 }
 
+.img-girl {
+  position: relative;
+}
+
 .img-girl > img {
+  display: block;
   margin-left: 95px;
   padding-bottom: 190px;
   border-radius: 16px;
+  z-index: -1;
+}
+
+.bg-img {
+  position: absolute;
+  top: 60px;
+  left: -40px;
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/Group_44.png");
+  background-size: cover;
 }
 
 .holiday-texts {
@@ -256,4 +277,39 @@ section {
   font-weight: 400;
   font-size: 18px;
   color: #070211;
+}
+
+/* portfolio section starts  */
+.portfolio-section {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.portfolio-texts {
+  font-family: "Inter", serif;
+  line-height: 1.8;
+  margin-left: 120px;
+}
+
+.portfolio-texts > h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+.portfolio-texts > h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.portfolio-texts > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #070211;
+}
+
+.portfolio_image {
+  margin-top: 30px;
+  gap: 16px;
 }
