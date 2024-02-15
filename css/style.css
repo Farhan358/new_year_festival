@@ -154,3 +154,59 @@ section {
   height: 55%;
   margin-right: 100px;
 }
+
+/* venue section starts */
+
+.venue-section {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.4),
+    rgba(255, 0, 0, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.venue-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.8;
+  margin-top: 60px;
+}
+
+.venue-title {
+  color: #ff0000;
+}
+.venue-text > h2 {
+  text-align: center;
+}
+
+.venue-join-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.venue-button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff0000;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+}
